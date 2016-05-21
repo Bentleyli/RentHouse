@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:id="@+id/iv_img_house_detail_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_no_img"/>
+        <Button
+            android:id="@+id/bt_tomap_house_detail_item"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_room_loc"
+            android:layout_gravity="right|top" />
+        <TextView
+            android:id="@+id/tv_price_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥800/月"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:layout_height="18dp">
+        <TextView
+            android:id="@+id/tv_area_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/tv_village_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小区"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:layout_height="18dp">
+        <TextView
+            android:id="@+id/tv_roomnum_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/tv_orientation_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="朝向"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/tv_square_house_detail_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25.0平"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/iv_renttype_house_detail_item"
+                android:layout_marginRight="10dp"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_entire_rent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
